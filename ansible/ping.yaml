@@ -1,0 +1,10 @@
+---
+- name: Ping servers
+  vars:
+    ansible_ssh_private_key_file: "ssh_keys/test_host1.key"
+  hosts: test_servers
+  
+  tasks:
+  - name: ping target server
+    ping:
+...
