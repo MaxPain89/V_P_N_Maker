@@ -18,4 +18,4 @@
 .idea
 
 # ssh keys for test server
-ansible/ssh_keys
+ansible/ssh_keys/test_host1.key
